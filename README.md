@@ -1,0 +1,6 @@
+![main](https://github.com/pelaiahdb/cs61c-32bit-CPU-Design/assets/16827194/16a1820a-944f-4cc6-8872-1fae7b606442)
+![u_REV](https://github.com/pelaiahdb/cs61c-32bit-CPU-Design/assets/16827194/6a5b981d-f92b-4c2d-a734-4dbe61e49a14)
+![u_REV](https://github.com/pelaiahdb/cs61c-32bit-CPU-Design/assets/16827194/6407e866-14aa-403b-beb0-78135fc13075)
+![u_MEM](https://github.com/pelaiahdb/cs61c-32bit-CPU-Design/assets/16827194/954e804e-4e14-49d2-ac33-c75c721adef2)
+![u_DEC](https://github.com/pelaiahdb/cs61c-32bit-CPU-Design/assets/16827194/e4ef9839-2f6a-4d20-929c-d8c3bd09b86d)
+![u_ALU](https://github.com/pelaiahdb/cs61c-32bit-CPU-Design/assets/16827194/1fb677ad-2a26-4c86-b4e1-287444d35592)
