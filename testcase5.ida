@@ -1,0 +1,36 @@
+    #
+    # TEST CASE 5
+    # YOUR TEST CASE GOES HERE
+    #
+add $t1 $0 1
+add $jc $0 2
+jgt @goot
+add $t2 $0 10
+goot:
+add $t3 $0 4
+j @gon
+add $t4 $0 10
+gon:
+add $jc $0 $0
+jeq @gono
+add $t5 $0 10
+gono:
+sub $jc $0 1
+jlt @gona
+add $t6 $0 10
+gona:
+jle @goni
+add $t7 $0 10
+goni:
+jne @gony
+add $t8 $0 10
+gony:
+add $jc $0 1
+jge @gonh
+add $t9 $0 10
+gonh:
+add $t10 $t1 1
+jal @goner
+add $t11 $0 10
+goner:
+add $t12 $t1 1

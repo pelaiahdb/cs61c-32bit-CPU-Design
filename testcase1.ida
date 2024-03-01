@@ -1,0 +1,10 @@
+    #
+    # TEST CASE 1
+    # YOUR TEST CASE GOES HERE
+    #
+add $t1 $0 1
+add $t2 $0 0xFFFF
+stu $t2 $t2 0xFFFF
+sw $t2 0($t1)
+lw $t3 0($t1)
+xor $t2 $t2 999

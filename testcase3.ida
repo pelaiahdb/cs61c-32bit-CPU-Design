@@ -1,0 +1,35 @@
+    #
+    # TEST CASE 3
+    # YOUR TEST CASE GOES HERE
+    #
+add $t1 $0 600
+jal @goot
+add $t2 $t1 $t1
+j @gone
+goot:
+add $t1 $t1 $t1
+j $ra
+gone:
+add $t3 $t2 $t1
+jal @lfsr
+j @exit
+lfsr:
+add $v0 $0 1       
+add $t0 $0 $0
+add $t1 $0 16
+L1:
+sr $t2 $v0 2
+sr $t3 $v0 3
+xor $t3 $t3 $t2
+xor $t3 $t3 $v0
+sr $t2 $v0 5
+xor $t3 $t3 $t2
+sl $t3 $t3 15
+sr $v0 $v0 1
+or $v0 $v0 $t3
+and $v0 $v0 0xFFFF
+add $t0 $t0 1
+sub $jc $t1 $t0
+jne @L1
+j $ra
+exit:

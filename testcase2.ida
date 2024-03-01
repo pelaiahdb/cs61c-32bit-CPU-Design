@@ -1,0 +1,23 @@
+    #
+    # TEST CASE 2
+    # YOUR TEST CASE GOES HERE
+    #
+add $t1 $0 20
+add $t2 $t1 $t1
+sl $t1 $t1 1
+sr $t2 $t2 1
+and $t2 $t1 1
+or $t1 $t2 1
+rev $t1 $t2 2
+add $t2 $t1 99999
+mul $t3 $t2 20
+div $t2 $t2 0x1FFFF
+add $t18 $0 -9999
+add $t16 $0 9999
+add $t19 $0 0
+div $t17 $t18 $t19
+div $t14 $t16 $t19
+div $t9 $t19 0
+div $t7 $t18 -37
+div $t6 $t18 $t16
+div $t4 $t16 $t18
